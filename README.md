@@ -39,7 +39,6 @@ Verify Docker Installation:
 Run the following command to check if Docker was installed correctly.
 ```
 docker --version
-
 ```
 
 Step 2: Set Up Project Directory and Dockerfile
@@ -47,7 +46,6 @@ Create a Project Directory:
 ```
 mkdir nginx-docker
 cd nginx-docker
-
 ```
 Create a Dockerfile:
 ```
@@ -76,7 +74,6 @@ Run the following command to build the Docker image from the Dockerfile:
 The -t flag tags the image as custom-nginx for easy reference.
 ```
 docker build -t custom-nginx .
-
 ```
 
 Step 5: Run the Docker Container with Host Network Mode
@@ -85,12 +82,13 @@ Run the container with the host network to make it accessible on the host’s pu
 2. The --network host option tells Docker to use the host network mode for the container.
 ```
 docker run -d --name my-nginx-container --network host custom-nginx
-
 ```
 Step 6: Test Access on Public IP
 Get the Host's Public IP
 Access NGINX:
 Open a browser(incognito mode preferred) and go to your public IP (http://<your-public-ip>) to view the default NGINX welcome page.
+![Uploading image.png…]()
+
 
 Notes:
 1. Run the following command to check if your NGINX container is up and running.
