@@ -24,7 +24,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 # Verify that the Docker Engine installation is successful by running the hello-world image.
 sudo docker run hello-world
-
 ```
 Start and Enable Docker:
 
@@ -67,7 +66,6 @@ EXPOSE 80
 
 # Start NGINX when the container starts
 CMD ["nginx", "-g", "daemon off;"]
-
 ```
 Step 4: Build the Docker Image
 Run the following command to build the Docker image from the Dockerfile:
