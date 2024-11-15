@@ -85,8 +85,8 @@ Step 6: Test Access on Public IP
 Get the Host's Public IP
 Access NGINX:
 Open a browser(incognito mode preferred) and go to your public IP (http://<your-public-ip>) to view the default NGINX welcome page.
-![Uploading image.png…]()
 
+![Screenshot 2024-11-14 183553](https://github.com/user-attachments/assets/875fdbe2-e596-40be-9a85-b86c1ca17f70)
 
 Notes:
 1. Run the following command to check if your NGINX container is up and running.
