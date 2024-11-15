@@ -76,7 +76,7 @@ docker build -t custom-nginx .
 
 Step 5: Run the Docker Container with Host Network Mode
 Run the container with the host network to make it accessible on the host’s public IP:
-1. -d refers o run in detached mode. 
+1. -d refers to run in detached mode. 
 2. The --network host option tells Docker to use the host network mode for the container.
 ```
 docker run -d --name my-nginx-container --network host custom-nginx
